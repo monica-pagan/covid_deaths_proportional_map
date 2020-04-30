@@ -3,7 +3,7 @@
 
 <head>
     <meta charset=utf-8 />
-    <title>Lab 08 Starter</title>
+    <title>COVID-19 Deaths</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
@@ -49,7 +49,7 @@
 <body>
     <header>
         <h1>United States</h1>
-        <h2>Pennsylvania, New Jersey, New York, Massachusetts COVID Deaths</h2>
+        <h2>Pennsylvania, New Jersey, New York, and Massachusetts COVID-19 Deaths</h2>
     </header>
 
     <div id='map'></div>
@@ -118,7 +118,7 @@ layer.on('mouseout', function() {
           var name = feature.properties.admin
           var deaths = feature.properties.coviddeath.toLocaleString()
           var state = feature.properties.states
-//          var fuel = feature.properties.fuel_source
+
       
                                                 
           
